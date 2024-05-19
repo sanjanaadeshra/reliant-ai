@@ -1,0 +1,17 @@
+.ai-result-datatable {
+    width: 50%;
+    margin: 5em 15em 5em 5em;
+    th,
+    td {
+        border: 1px solid #ddd;
+        padding: 1em;
+    }
+    th {
+        background-color: #f0f0f0;
+        text-align: left;
+    }
+}
+
+button {
+    margin: 0em 0em 5em 5em;
+}
