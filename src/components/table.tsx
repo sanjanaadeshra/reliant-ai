@@ -80,7 +80,7 @@ const Table = ({data, columns}) => {
 
   return (
     <>
-    <table {...getTableProps()} className='ai-result-datatable'>
+    <table {...getTableProps()} className='ai-result-datatable border-spacing-2'>
       <thead>
         {headerGroups.map(headerGroup => (
           <tr {...headerGroup.getHeaderGroupProps()} key={headerGroup.id}>

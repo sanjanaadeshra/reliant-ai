@@ -12,6 +12,12 @@ export default function Datatable() {
     .then((data)=> setData(data))
   }, [])
   // console.log('data', data.columns, data.rows);
-  return data ? <Table columns={data.columns} data={data.rows}></Table> : <div>Loading</div>
+  return data ? 
+  <>
+    <div className="text-center text-2xl m-5">Welcome to Reliant AI Data Info</div>
+    <Table columns={data.columns} data={data.rows}></Table>
+
+  </>
+   : <div>Loading</div>
 }
 ;
